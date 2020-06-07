@@ -1690,6 +1690,28 @@ section.lazy-placeholder:after {
 .cid-s02u6guFmc .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-s08gT9Rv4L {
+  background: #0f7699;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #cc2952, #0f7699);
+}
+.cid-s08gT9Rv4L .image-block {
+  margin: auto;
+}
+.cid-s08gT9Rv4L figcaption {
+  position: relative;
+}
+.cid-s08gT9Rv4L figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-s08gT9Rv4L .image-block {
+    width: 100% !important;
+  }
+}
 .cid-s078fJWH3F {
   padding-top: 45px;
   padding-bottom: 15px;
