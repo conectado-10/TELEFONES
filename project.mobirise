@@ -621,7 +621,7 @@
             "modalSize": "medium",
             "modalHeader": true,
             "modalTitle": "Informação ENEL",
-            "modalBody": "Site da ENEL para tirar a 2ºvia esta fora do ar. Por gentileza entrar em contato  atraves de ligação.",
+            "modalBody": "Você só consegue tirar a 2ºvia no horário comercial. \n                    William Bachot",
             "modalBodyHTML": false,
             "modalFooter": true,
             "modalCloseBtn": true,
@@ -638,14 +638,14 @@
             "modalAutoOpenDelay": "1"
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#2-via\">Preview 2-via</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#2-via-howtouse\">How to use 2-via</a>\n</div>\n<div class=\"modal fade\" id=\"2-via-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"2-via-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"2-via-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('2-via')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Site da ENEL para tirar a 2ºvia esta fora do ar. Por gentileza entrar em contato  atraves de ligação.",
+          "modalBody": "Você só consegue tirar a 2ºvia no horário comercial. \n                    William Bachot",
           "alias": "witsec-modal-window",
           "_tags": [
             "Extension"
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-v",
-          "modalWindow": "<div class=\"modal fade\" id=\"2-via\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"2-viaLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"2-viaLabel\">Informação ENEL</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"2-via_body\">Site da ENEL para tirar a 2ºvia esta fora do ar. Por gentileza entrar em contato  atraves de ligação.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">ok</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#2-via\").on(\"hidden.bs.modal\", function () {    var html = $( \"#2-via_body\" ).html();    $( \"#2-via_body\" ).empty();    $( \"#2-via_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"2-via\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"2-viaLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"2-viaLabel\">Informação ENEL</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"2-via_body\">Você só consegue tirar a 2ºvia no horário comercial. <br />                    William Bachot</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">ok</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#2-via\").on(\"hidden.bs.modal\", function () {    var html = $( \"#2-via_body\" ).html();    $( \"#2-via_body\" ).empty();    $( \"#2-via_body\" ).append(html);  })});</script>"
         }
       ]
     },
