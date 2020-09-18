@@ -620,7 +620,7 @@
             "modalName": "Telefone-",
             "modalSize": "medium",
             "modalHeader": true,
-            "modalTitle": "Maustrato de Animais",
+            "modalTitle": "Denúcie Agora",
             "modalBody": "Denúcie maus tratos contra animais . A ligação é gratuita feita por todo Brasil. 0800 61 8080",
             "modalBodyHTML": false,
             "modalFooter": true,
@@ -645,7 +645,7 @@
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-v",
-          "modalWindow": "<div class=\"modal fade\" id=\"Telefone-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Telefone-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Telefone-Label\">Maustrato de Animais</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Telefone-_body\">Denúcie maus tratos contra animais . A ligação é gratuita feita por todo Brasil. 0800 61 8080</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">ok</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Telefone-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Telefone-_body\" ).html();    $( \"#Telefone-_body\" ).empty();    $( \"#Telefone-_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"Telefone-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Telefone-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Telefone-Label\">Denúcie Agora</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Telefone-_body\">Denúcie maus tratos contra animais . A ligação é gratuita feita por todo Brasil. 0800 61 8080</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">ok</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Telefone-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Telefone-_body\" ).html();    $( \"#Telefone-_body\" ).empty();    $( \"#Telefone-_body\" ).append(html);  })});</script>"
         }
       ]
     },
